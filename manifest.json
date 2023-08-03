@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Data Storage Unit Converter",
+  "version": "1.0",
+  "description": "Your Effortless Data Storage Unit Converter.",
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

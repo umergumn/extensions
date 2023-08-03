@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 250px;
+  padding: 15px;
+}
+
+h1 {
+  text-align: center;
+  color: #0078d4;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+input {
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+select {
+  padding: 5px;
+}
+
+.output-group {
+  margin-top: 10px;
+}
+
+output {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}

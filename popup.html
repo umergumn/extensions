@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+  <script src="popup.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Data Storage Unit Converter</h1>
+    <div class="input-group">
+      <input type="number" id="inputBytes" placeholder="Enter value in bytes">
+      <select id="inputUnit">
+        <option value="B">Bytes</option>
+        <option value="KB">Kilobytes</option>
+        <option value="MB">Megabytes</option>
+        <option value="GB">Gigabytes</option>
+        <option value="TB">Terabytes</option>
+      </select>
+    </div>
+    <div class="output-group">
+      <output id="outputKB">Kilobytes:</output>
+      <output id="outputMB">Megabytes:</output>
+      <output id="outputGB">Gigabytes:</output>
+      <output id="outputTB">Terabytes:</output>
+    </div>
+    <button class="button" id="resetButton">Reset</button>
+  </div>
+</body>
+</html>
